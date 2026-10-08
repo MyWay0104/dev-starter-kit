@@ -1,0 +1,15 @@
+# Claude Code 개인 설정 (권한 허용 목록 등 PC마다 다름)
+.claude/settings.local.json
+# 훅 로그
+.claude/hooks/*.log
+# 브라우저 검증 MCP가 남기는 로그 · 스냅샷
+.playwright-mcp/
+# 태스크 관리 MCP의 로컬 상태
+shrimp_data/
+# 환경 파일 (예시 파일만 커밋)
+.env
+.env.*
+!.env.example
+# OS
+.DS_Store
+Thumbs.db
